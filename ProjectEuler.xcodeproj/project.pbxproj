@@ -14,6 +14,8 @@
 		52DC0FEF2595E066009AC759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DC0FEE2595E066009AC759 /* Assets.xcassets */; };
 		52DC0FF22595E066009AC759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DC0FF02595E066009AC759 /* LaunchScreen.storyboard */; };
 		52DC0FFB2595FA82009AC759 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC0FFA2595FA82009AC759 /* TaskCell.swift */; };
+		52DC0FFF25965C0A009AC759 /* ProjectEulerTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC0FFE25965C0A009AC759 /* ProjectEulerTasks.swift */; };
+		52DC1004259667F9009AC759 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC1003259667F9009AC759 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		52DC0FF12595E066009AC759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DC0FF32595E066009AC759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52DC0FFA2595FA82009AC759 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		52DC0FFE25965C0A009AC759 /* ProjectEulerTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerTasks.swift; sourceTree = "<group>"; };
+		52DC1003259667F9009AC759 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				52DC0FF02595E066009AC759 /* LaunchScreen.storyboard */,
 				52DC0FF32595E066009AC759 /* Info.plist */,
 				52DC0FFA2595FA82009AC759 /* TaskCell.swift */,
+				52DC0FFE25965C0A009AC759 /* ProjectEulerTasks.swift */,
+				52DC1003259667F9009AC759 /* Extensions.swift */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DC0FFB2595FA82009AC759 /* TaskCell.swift in Sources */,
+				52DC1004259667F9009AC759 /* Extensions.swift in Sources */,
 				52DC0FEA2595E063009AC759 /* ViewController.swift in Sources */,
+				52DC0FFF25965C0A009AC759 /* ProjectEulerTasks.swift in Sources */,
 				52DC0FE62595E063009AC759 /* AppDelegate.swift in Sources */,
 				52DC0FE82595E063009AC759 /* SceneDelegate.swift in Sources */,
 			);
